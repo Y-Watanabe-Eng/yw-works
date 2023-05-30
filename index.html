@@ -61,12 +61,37 @@
 <p>制作したアプリの説明やソースコード等</p>
 <br/>
 
-<ul class="nav nav-tabs">
-  <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">アクティブ</a></li>
-  <li class="nav-item"><a href="#" class="nav-link">リンク1</a></li>
-  <li class="nav-item"><a href="#" class="nav-link">リンク2</a></li>
+<!-- アンダーラインナビゲーション部分 -->
+<ul class="nav nav-underline mb-3" id="underline-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button type="button" class="nav-link active" id="underline-home-tab" data-bs-toggle="pill" data-bs-target="#underline-home" role="tab" aria-controls="underline-home" aria-selected="true">ホーム</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button type="button" class="nav-link" id="underline-profile-tab" data-bs-toggle="pill" data-bs-target="#underline-profile" role="tab" aria-controls="underline-profile" aria-selected="false">プロフィール</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button type="button" class="nav-link" id="underline-contact-tab" data-bs-toggle="pill" data-bs-target="#underline-contact" role="tab" aria-controls="underline-contact" aria-selected="false">コンタクト</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="underline-disabled-tab" data-bs-toggle="pill" data-bs-target="#underline-disabled" type="button" role="tab" aria-controls="underline-disabled" aria-selected="false" disabled>無効</button>
+  </li>
 </ul>
-        
+
+<!-- パネル部分 -->
+<div class="tab-content" id="underline-tabContent">
+  <div class="tab-pane fade show active" id="underline-home" role="tabpanel" aria-labelledby="underline-home-tab" tabindex="0">
+    <p>これは、<strong>ホームタブ</strong>に関連付けられたコンテンツのプレースホルダコンテンツ。...</p>
+  </div>
+  <div class="tab-pane fade" id="underline-profile" role="tabpanel" aria-labelledby="underline-profile-tab" tabindex="0">
+    <p>これは、<strong>プロフィールタブ</strong>に関連付けられたコンテンツのプレースホルダコンテンツ。...</p>
+  </div>
+  <div class="tab-pane fade" id="underline-contact" role="tabpanel" aria-labelledby="underline-contact-tab" tabindex="0">
+    <p>これは、<strong>コンタクトタブ</strong>に関連付けられたコンテンツのプレースホルダコンテンツ。...</p>
+  </div>
+  <div class="tab-pane fade" id="underline-disabled" role="tabpanel" aria-labelledby="underline-disabled-tab" tabindex="0">
+    <p>これは、<strong>無効タブ</strong>の関連コンテンツの一部のプレースホルダーコンテンツ。</p>
+  </div>
+</div>  
         
         
         
