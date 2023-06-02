@@ -37,7 +37,8 @@
 <nav class="px-5 pt-5 pb-2" style="--bs-breadcrumb-divider: '>';" aria-label="パンくずリスト">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a class="text-decoration-none text-light" href="/yw-works">TOP</a></li>
-    <li class="breadcrumb-item active text-success" aria-current="page">Python</li>
+  <li class="breadcrumb-item"><a class="text-decoration-none text-light" href="/yw-works/Python" href="#">ホーム</a></li>
+  <li class="breadcrumb-item active text-success" aria-current="page">WEBスクレイピング</li>
   </ol>
 </nav>
 
