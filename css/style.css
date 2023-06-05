@@ -12,9 +12,20 @@
   transition: opacity .8s, transform .8s; /* 透過率と縦方向の移動を0.8秒 */
 }
 
+.fade {
+  opacity: 0; /* 最初は非表示 */
+  transition: opacity .8s; /* 透過率を0.8秒 */
+}
+
+
 /* フェードイン(スクロールした後) */
 .fadeup.is-inview {
   opacity: 1; /* 表示領域に入ったら表示 */
   transform: translateY(0); /* 30px上に移動する */
-  transition-delay: .2s; /* フェード開始を0.5秒遅らせる */
+  transition-delay: .2s; /* フェード開始を0.2秒遅らせる */
+}
+
+.fade.fade-inview {
+  opacity: 1; /* 表示領域に入ったら表示 */
+  transition-delay: .2s; /* フェード開始を0.2秒遅らせる */
 }
