@@ -16,5 +16,5 @@
 .fadeup.is-inview {
   opacity: 1; /* 表示領域に入ったら表示 */
   transform: translateY(0); /* 30px上に移動する */
-  transition-delay: .5s; /* フェード開始を0.5秒遅らせる */
+  transition-delay: .2s; /* フェード開始を0.5秒遅らせる */
 }
