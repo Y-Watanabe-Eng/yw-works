@@ -27,5 +27,5 @@
 
 .fade.fade-inview {
   opacity: 1; /* 表示領域に入ったら表示 */
-  transition-delay: .2s; /* フェード開始を0.2秒遅らせる */
+  transition-delay: .3s; /* フェード開始を0.3秒遅らせる */
 }
